@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    .poster {
+        width: 300px;
+    }
+    td {
+        width: 300px;
+        text-align: center;
+        font-size: 25px;
+    }
+    </style>
+    <!-- jQuery -->
+    <script src = "jquery-3.7.1.js"></script>
+    <script src = "script.js">
+    </script>
+
+</head>
+<body>
+    <button id = "btnCallSnippet"> HTML 조각 불러오기 </button>
+    <button id = "btnCallMovies"> 영화 목록 불러오기 </button>
+    <!-- HTML 조각 불러와서 렌더링할 영역 -->
+    <div id = "info">
+        
+    </div>
+    <!-- JSON을 받아와서 동적으로 만들 테이블 -->
+    <table id = "list" border = "1" width = "1500">
+    </table>
+
+</body>
+</html>
